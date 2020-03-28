@@ -4,9 +4,9 @@ namespace WebApplication
 {
     public class HelloController : Controller
     {
-        public string Index()
-        {            
-            return "Hello from controller";
+        public IActionResult Index()
+        {
+            return View();
         }
     }
 }

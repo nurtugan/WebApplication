@@ -9,7 +9,9 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="HelloController.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="HelloController.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -22,7 +24,17 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="Hello" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+        </e>
         <e p="WebApplication.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bulma.min.css" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="WebApplication.sln" t="IncludeFlat" />
     </e>

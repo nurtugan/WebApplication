@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62515b8e-9192-4ac7-8604-94874c45cb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApplication/HelloController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Views/Hello/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/HelloController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/HelloController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,16 +18,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/WebApplication/HelloController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/HelloController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Views/Hello/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApplication/HelloController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Hello/Index.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585378051073</updated>
-      <workItem from="1585378054740" duration="732000" />
+      <workItem from="1585378054740" duration="1480000" />
     </task>
     <servers />
   </component>
@@ -122,22 +127,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="181" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585378260480" />
-    <state width="1398" height="171" key="GridCell.Tab.0.bottom" timestamp="1585378958357">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="171" key="GridCell.Tab.0.bottom" timestamp="1585379829088">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="171" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585378958357" />
-    <state width="1398" height="171" key="GridCell.Tab.0.center" timestamp="1585378958356">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="171" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585379826470" />
+    <state width="1398" height="171" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1585379829088" />
+    <state width="1398" height="171" key="GridCell.Tab.0.center" timestamp="1585379829085">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="171" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585378958356" />
-    <state width="1398" height="171" key="GridCell.Tab.0.left" timestamp="1585378958355">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="171" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585379826469" />
+    <state width="1398" height="171" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1585379829085" />
+    <state width="1398" height="171" key="GridCell.Tab.0.left" timestamp="1585379829081">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="171" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585378958355" />
-    <state width="1398" height="171" key="GridCell.Tab.0.right" timestamp="1585378958357">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="171" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585379826468" />
+    <state width="1398" height="171" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1585379829081" />
+    <state width="1398" height="171" key="GridCell.Tab.0.right" timestamp="1585379829087">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="171" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585378958357" />
+    <state width="1398" height="171" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585379826470" />
+    <state width="1398" height="171" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1585379829087" />
     <state x="408" y="212" key="WebReferenceSession.Dialog" timestamp="1585378837411">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

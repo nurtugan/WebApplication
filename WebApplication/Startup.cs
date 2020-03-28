@@ -32,8 +32,10 @@ namespace WebApplication
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Hello}/{action=Index}/{id?}");
             });
+
+            app.UseStaticFiles();
 
             // app.UseMvcWithDefaultRoute(); the same as previous line
         }
