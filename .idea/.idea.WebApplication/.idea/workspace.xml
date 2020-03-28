@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62515b8e-9192-4ac7-8604-94874c45cb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/HelloController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +15,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebApplication/HelloController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/HelloController.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1ZkLGZxHpko4Zdb7Op9b55QLv7k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -42,6 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication">
     <configuration name="WebApplication" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585378051073</updated>
-      <workItem from="1585378054740" duration="242000" />
+      <workItem from="1585378054740" duration="732000" />
     </task>
     <servers />
   </component>
@@ -122,21 +122,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="181" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585378260480" />
-    <state width="1398" height="171" key="GridCell.Tab.0.bottom" timestamp="1585378241885">
+    <state width="1398" height="171" key="GridCell.Tab.0.bottom" timestamp="1585378958357">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="171" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585378241885" />
-    <state width="1398" height="171" key="GridCell.Tab.0.center" timestamp="1585378241884">
+    <state width="1398" height="171" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585378958357" />
+    <state width="1398" height="171" key="GridCell.Tab.0.center" timestamp="1585378958356">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="171" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585378241884" />
-    <state width="1398" height="171" key="GridCell.Tab.0.left" timestamp="1585378241883">
+    <state width="1398" height="171" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585378958356" />
+    <state width="1398" height="171" key="GridCell.Tab.0.left" timestamp="1585378958355">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="171" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585378241883" />
-    <state width="1398" height="171" key="GridCell.Tab.0.right" timestamp="1585378241885">
+    <state width="1398" height="171" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585378958355" />
+    <state width="1398" height="171" key="GridCell.Tab.0.right" timestamp="1585378958357">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="171" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585378241885" />
+    <state width="1398" height="171" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585378958357" />
+    <state x="408" y="212" key="WebReferenceSession.Dialog" timestamp="1585378837411">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="212" key="WebReferenceSession.Dialog/0.0.1440.900@0.0.1440.900" timestamp="1585378837411" />
   </component>
 </project>
