@@ -25,6 +25,7 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
           <e p="Hello" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
