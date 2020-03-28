@@ -28,6 +28,9 @@
           <e p="Hello" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+          </e>
         </e>
         <e p="WebApplication.csproj" t="IncludeRecursive" />
         <e p="wwwroot" t="Include">
