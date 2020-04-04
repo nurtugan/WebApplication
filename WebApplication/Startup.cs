@@ -32,8 +32,8 @@ namespace WebApplication
             {
                 routes.MapRoute(
                     name: "calculator",
-                    template: "{controller=Calculator}/addTenToNumber/{number:int}",
-                    defaults: new { action = "plusTen" });
+                    template: "Calculator/{action}/{number:int}",
+                    defaults: new { Controller = "Calculator" });
 
                 routes.MapRoute(
                     name: "messages",

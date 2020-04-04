@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62515b8e-9192-4ac7-8604-94874c45cb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Controllers/CalculatorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebApplication/Views/Calculator/PlusTen.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/HelloController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/MessagesController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,15 +31,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/WebApplication/HelloController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Views/_ViewStart.cshtml.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Views/_ViewStart.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Views/Hello/Index.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Controllers/MessagesController.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Pages/Messages/ShowMessage.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Views/Messages/ShowMessage.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Controllers/CalculatorController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Pages/Calculator/PlusTen.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Calculator/PlusTen.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
       </list>
     </option>
   </component>
@@ -112,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585378051073</updated>
       <workItem from="1585378054740" duration="3042000" />
-      <workItem from="1585981850389" duration="790000" />
+      <workItem from="1585981850389" duration="1262000" />
     </task>
     <servers />
   </component>
@@ -142,26 +146,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="181" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585378260480" />
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1585983076003">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1585983360020">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585983073599" />
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1585983076003" />
-    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1585983076002">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585983360020" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1585983219367" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1585983360019">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585983073598" />
-    <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1585983076002" />
-    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1585983076001">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585983360019" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1585983219366" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1585983360018">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585983073597" />
-    <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1585983076001" />
-    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1585983076003">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585983360018" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1585983219365" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1585983360020">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585983073598" />
-    <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1585983076003" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585983360020" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1585983219367" />
     <state x="408" y="212" key="WebReferenceSession.Dialog" timestamp="1585378837411">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
