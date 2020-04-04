@@ -31,16 +31,6 @@ namespace WebApplication
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "calculator",
-                    template: "Calculator/{action}/{number:int}",
-                    defaults: new { Controller = "Calculator" });
-
-                routes.MapRoute(
-                    name: "messages",
-                    template: "say/{**message}",
-                    defaults: new { controller="Messages", action = "ShowMessage" });
-
-                routes.MapRoute(
                     name: "default",
                     template: "{controller=Hello}/{action=Index}/{id?}");
             });

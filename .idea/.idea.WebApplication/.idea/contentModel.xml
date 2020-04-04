@@ -30,7 +30,7 @@
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Calculator" t="Include">
-            <e p="PlusTen.cshtml" t="Include" />
+            <e p="Sum.cshtml" t="Include" />
           </e>
           <e p="Hello" t="Include">
             <e p="Index.cshtml" t="Include" />

@@ -4,10 +4,13 @@ namespace WebApplication
 {
     public class CalculatorController : Controller
     {
-        public IActionResult PlusTen(int number)
+
+        [Route("[controller]/{firstNumber:int}/{secondNumber:int}")]
+        public IActionResult Sum(int firstNumber, int secondNumber)
         {
-            ViewData["number"] = number;
-            ViewData["result"] = number + 10;
+            ViewData["firstNumber"] = firstNumber;
+            ViewData["secondNumber"] = secondNumber;
+            ViewData["result"] = firstNumber + secondNumber;
 
             return View();
         }
