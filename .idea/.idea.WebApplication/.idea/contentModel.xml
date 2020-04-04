@@ -11,6 +11,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="HelloController.cs" t="Include" />
+          <e p="MessagesController.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -29,6 +30,9 @@
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Hello" t="Include">
             <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Messages" t="Include">
+            <e p="ShowMessage.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
