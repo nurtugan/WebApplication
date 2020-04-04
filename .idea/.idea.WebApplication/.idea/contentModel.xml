@@ -10,6 +10,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="CalculatorController.cs" t="Include" />
           <e p="HelloController.cs" t="Include" />
           <e p="MessagesController.cs" t="Include" />
         </e>
@@ -28,6 +29,9 @@
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Calculator" t="Include">
+            <e p="PlusTen.cshtml" t="Include" />
+          </e>
           <e p="Hello" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
