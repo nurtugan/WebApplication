@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62515b8e-9192-4ac7-8604-94874c45cb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Views/Shared/_Search.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/MoviesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/MoviesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Movies/Add.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Movies/Add.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Movies/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Movies/Index.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="62515b8e-9192-4ac7-8604-94874c45cb25" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
