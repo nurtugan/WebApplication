@@ -13,6 +13,12 @@
           <e p="CalculatorController.cs" t="Include" />
           <e p="HelloController.cs" t="Include" />
           <e p="MessagesController.cs" t="Include" />
+          <e p="MoviesController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Movies" t="Include">
+            <e p="Movie.cs" t="Include" />
+          </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -37,6 +43,9 @@
           </e>
           <e p="Messages" t="Include">
             <e p="ShowMessage.cshtml" t="Include" />
+          </e>
+          <e p="Movies" t="Include">
+            <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
