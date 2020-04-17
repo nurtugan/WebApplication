@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication.Models.Movies;
 
@@ -46,6 +47,16 @@ namespace WebApplication
             movies.Add(movie);
 
             return View("Index",movies);
+        }
+        
+        public IActionResult Search(string text)
+        {
+            text = text.ToLower();
+            var searchedMovies = movies.Where(movie => movie.Name.ToLower().Contains(text)
+                                                       || movie.Genre.ToLower().Contains(text)
+                                                       || movie.Author.ToLower().Contains(text))
+                .ToList();
+            return View("Index", searchedMovies);
         }
     }
 }

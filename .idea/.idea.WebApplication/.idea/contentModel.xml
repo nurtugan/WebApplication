@@ -51,6 +51,7 @@
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
+            <e p="_Search.cshtml" t="Include" />
           </e>
         </e>
         <e p="WebApplication.csproj" t="IncludeRecursive" />
