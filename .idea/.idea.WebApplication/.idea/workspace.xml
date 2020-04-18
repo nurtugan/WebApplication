@@ -1,34 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62515b8e-9192-4ac7-8604-94874c45cb25" name="Default Changelist" comment="" />
+    <list default="true" id="62515b8e-9192-4ac7-8604-94874c45cb25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebApplication/Data/MoviesContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/20200418072009_first.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/20200418072009_first.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/20200418072225_dataSeed.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/20200418072225_dataSeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/MoviesContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/movies.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/MoviesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/MoviesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Movies/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Movies/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WebApplication" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApplication/Views/Calculator/Result.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Views/Movies/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/MoviesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Models/Movies/Movie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Views/Hello/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Views/Movies/Add.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Migrations/20200418072009_first.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/HelloController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/MessagesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Views/Messages/ShowMessage.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/CalculatorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Views/Movies/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/MoviesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Models/Movies/Movie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Views/Movies/Add.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.config/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Data/MoviesContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/CalculatorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Views/Shared/_Search.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -48,14 +68,19 @@
         <option value="$PROJECT_DIR$/WebApplication/Controllers/CalculatorController.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Views/Calculator/Result.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Pages/Movies/Index.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Views/_ViewImports.cshtml.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Views/_ViewImports.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Models/Movies/Movie.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Views/Movies/Add.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/MoviesController.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Views/Shared/_Search.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Migrations/20200418064635_first.Designer.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Migrations/20200418064635_first.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Migrations/20200418064917_dataSeed.Designer.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Migrations/20200418064917_dataSeed.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/MoviesController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Views/Movies/Index.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/MoviesContext.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +162,7 @@
       <workItem from="1585378054740" duration="3042000" />
       <workItem from="1585981850389" duration="2267000" />
       <workItem from="1585984746731" duration="18000" />
+      <workItem from="1587191636791" duration="3317000" />
     </task>
     <servers />
   </component>
@@ -166,26 +192,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="181" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587144705033" />
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1587145349327">
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1587195107910">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587145349327" />
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1587145217269" />
-    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1587145349326">
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587195107910" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1587195028525" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1587195107910">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587145349326" />
-    <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1587145217268" />
-    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1587145349325">
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587195107910" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1587195028524" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1587195107909">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587145349325" />
-    <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1587145217268" />
-    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1587145349326">
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587195107909" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1587195028524" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1587195107910">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587145349326" />
-    <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1587145217269" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587195107910" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1587195028525" />
     <state x="408" y="212" key="WebReferenceSession.Dialog" timestamp="1585378837411">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

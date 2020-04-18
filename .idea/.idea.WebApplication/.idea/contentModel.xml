@@ -15,11 +15,22 @@
           <e p="MessagesController.cs" t="Include" />
           <e p="MoviesController.cs" t="Include" />
         </e>
+        <e p="Data" t="Include">
+          <e p="MoviesContext.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200418072009_first.cs" t="Include" />
+          <e p="20200418072009_first.Designer.cs" t="Include" />
+          <e p="20200418072225_dataSeed.cs" t="Include" />
+          <e p="20200418072225_dataSeed.Designer.cs" t="Include" />
+          <e p="MoviesContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="Movies" t="Include">
             <e p="Movie.cs" t="Include" />
           </e>
         </e>
+        <e p="movies.db" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
